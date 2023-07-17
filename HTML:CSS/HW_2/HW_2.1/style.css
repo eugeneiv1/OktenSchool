@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container_item {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    background-color: chartreuse;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    font-family: "Rubik Pixels", sans-serif;
+}
+
+.second {
+    font-family: "Sedgwick Ave Display", sans-serif;
+}
+
+.third {
+    font-family: "Dancing Script", sans-serif;
+}
+
+.fourth {
+    font-family: "Fjalla One", sans-serif;
+}
+
+.fifth {
+    font-family: "Indie Flower", sans-serif;
+}
