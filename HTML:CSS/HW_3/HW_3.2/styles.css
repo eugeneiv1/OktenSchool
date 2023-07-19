@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 20vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding: 0 100px;
+
+    background-color: rgba(83, 81, 81, 0.10);;
+}
+
+
+.nav_link {
+    position: relative;
+
+    display: inline-block;
+    margin-left: 100px;
+
+    font-family: 'Jost', sans-serif;
+    font-size: 35px;
+    color: #7A7070;
+
+    text-decoration: none;
+}
+
+.nav_link:hover {
+    color: #3D6FB4;
+}
+
+.active_nav_link {
+    color: #3D6FB4;
+}
+
+.nav_link::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: -4px;
+    background-color: #3D6FB4;
+    border-radius: 2px;
+    transform-origin: bottom right;
+    transition: transform 0.15s ease-out;
+}
+
+.nav_link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+main {
+    padding: 72px 100px;
+    display: flex;
+}
+
+.section_description h1 {
+    font-family: 'Jost', sans-serif;
+    font-size: 70px;
+
+    width: 25.5vw;
+}
+
+.section_description p {
+    font-family: 'Jost', sans-serif;
+    font-size: 35px;
+}
+
+.section_description_list {
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+.section_description_list_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+
+    margin-right: 36px;
+    padding: 16px 0;
+
+    border: 1px solid #000;
+    border-radius: 30px;
+}
+
+.section_description_list_item_link {
+    text-decoration: none;
+    text-align: center;
+
+    color: #000;
+
+    font-family: "Jost", sans-serif;
+}
+
+.learn_more {
+    width: 130px;
+    background-color: rgba(61, 111, 180, 0.29);
+}
+
+.section_image {
+    padding-top: 30px;
+}
