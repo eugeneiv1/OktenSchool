@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+section {
+    text-align: center;
+}
+
+#top, #middle, #bottom {
+    height: 100vh;
+    padding: 100px 50px;
+}
+
+h1 {
+    font-size: 5em;
+    margin: 0;
+}
+
+p {
+    font-size: 2em;
+}
+
+.button {
+    width: 5vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto;
+
+    font-size: 2em;
+    text-decoration: none;
+
+    background-color: lightskyblue;
+    border-radius: 50%;
+
+    color: darkblue;
+
+    transition: 1s;
+}
+
+.button:hover {
+    font-size: 3em;
+}
+
