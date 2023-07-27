@@ -1,0 +1,51 @@
+header, .side-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3d3d3;
+}
+
+header {
+    height: 30vh;
+}
+
+main {
+    padding-top: 10px;
+    gap: 10px;
+    display: flex;
+}
+
+.main-content, .side-content {
+    height: 65vh;
+}
+
+.main-content {
+    width: 75vw;
+}
+
+.main-content-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30.5vh;
+    margin: 0 0 10px 0;
+    background-color: #d3d3d3;
+}
+
+.main-content-description {
+    display: flex;
+    gap: 5px;
+}
+
+.main-content-description p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30.5vh;
+    width: 33.4%;
+    background-color: #d3d3d3;
+}
+
+.side-content {
+    width: 25vw;
+}
